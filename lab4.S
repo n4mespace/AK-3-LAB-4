@@ -103,7 +103,6 @@ program_a:
 	// 2: r0 = r1 * r2
 	mul r0, r1, r2
 	
-	bl program_b
 jump3:
 	// 3: r0 = r1 - r2
 	sub r0, r1, r2
